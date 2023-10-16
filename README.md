@@ -1,2 +1,2 @@
 # gsauto
-goldman sucks automation project
+goldman sacks automation project
