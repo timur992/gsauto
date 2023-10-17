@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting execution of loginWithCorrectCredentialsTest]]>
+    </line>
+    <line>
+      <![CDATA[set up process has finished]]>
+    </line>
+    <line>
+      <![CDATA[Printing Page Title]]>
+    </line>
+    <line>
+      <![CDATA[comparing actualPage vs expectedPage]]>
+    </line>
+    <line>
+      <![CDATA[supplying tomsmith as a username]]>
+    </line>
+    <line>
+      <![CDATA[supplying SuperSecretPassword! as a password]]>
+    </line>
+    <line>
+      <![CDATA[clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[comparing expectedMessage vs actualMessageDisplayed]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser session]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-13T01:10:10 EDT" name="Command line suite" finished-at="2023-10-13T01:10:38 EDT" duration-ms="28082">
+    <groups>
+    </groups>
+    <test started-at="2023-10-13T01:10:10 EDT" name="Command line test" finished-at="2023-10-13T01:10:38 EDT" duration-ms="28082">
+      <class name="mavenauto.NegativeLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavenauto.NegativeLoginTest@32709393]" started-at="2023-10-13T01:10:24 EDT" name="setUp" finished-at="2023-10-13T01:10:28 EDT" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithIncorrectPasswordTest()[pri:0, instance:mavenauto.NegativeLoginTest@32709393]" started-at="2023-10-13T01:10:28 EDT" name="loginWithIncorrectPasswordTest" finished-at="2023-10-13T01:10:36 EDT" duration-ms="8412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mavenauto.NegativeLoginTest@32709393]" started-at="2023-10-13T01:10:36 EDT" name="tearDown" finished-at="2023-10-13T01:10:38 EDT" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mavenauto.NegativeLoginTest -->
+      <class name="mavenauto.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavenauto.LoginTest@3e9b1010]" started-at="2023-10-13T01:10:10 EDT" name="setUp" finished-at="2023-10-13T01:10:14 EDT" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithCorrectCredentialsTest()[pri:0, instance:mavenauto.LoginTest@3e9b1010]" started-at="2023-10-13T01:10:14 EDT" name="loginWithCorrectCredentialsTest" finished-at="2023-10-13T01:10:22 EDT" duration-ms="8412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting execution of loginWithCorrectCredentialsTest]]>
+            </line>
+            <line>
+              <![CDATA[set up process has finished]]>
+            </line>
+            <line>
+              <![CDATA[Printing Page Title]]>
+            </line>
+            <line>
+              <![CDATA[comparing actualPage vs expectedPage]]>
+            </line>
+            <line>
+              <![CDATA[supplying tomsmith as a username]]>
+            </line>
+            <line>
+              <![CDATA[supplying SuperSecretPassword! as a password]]>
+            </line>
+            <line>
+              <![CDATA[clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[comparing expectedMessage vs actualMessageDisplayed]]>
+            </line>
+            <line>
+              <![CDATA[closing the browser session]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredentialsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mavenauto.LoginTest@3e9b1010]" started-at="2023-10-13T01:10:22 EDT" name="tearDown" finished-at="2023-10-13T01:10:24 EDT" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mavenauto.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
